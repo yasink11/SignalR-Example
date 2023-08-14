@@ -1,7 +1,6 @@
-# SignalR Örnek Çalışması
-Bu örnek çalışma SQL Tabloları ile SignalR kullanılarak veritabanı değişikliklerini Uygulamanın Clientinde göstermekle alakalıdır.
-Ekleme, güncelleme veya silme işlemi gibi herhangi bir kayıt tablosu değişikliği için, değiştirilen kaydın değerlerini içeren bir bildirim SqlTableDependency'ye iletilir.
-Tablolar ve grafikler için Chart.js kütüphanesini kullandım.
+# SignalR Case Study
+This case study is about using SignalR with SQL Tables to show database changes in the Application Client. For any record table change, such as insertion, update or deletion, a notification is passed to SqlTableDependency with the values of the changed record.
+I used the Chart.js library for the tables and charts.
 
 
 ![Screenshot 2023-08-14 162356](https://github.com/yasink11/SignalR-Example/assets/100369628/5aa5e937-a15e-4c85-b3f0-e79e578f7b55)
